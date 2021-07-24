@@ -70,19 +70,4 @@ export default {
 .done {
   background-color: #fff5ea
 }
-
-.list-group-item {
-  animation: slide-up 1s ease;
-}
-
-@keyframes slide-up {
-  0% {
-      opacity: 0;
-      transform: translateY(-30px);
-  }
-  100% {
-      opacity: 1;
-      transform: translateY(0);
-  }
-}
 </style>
